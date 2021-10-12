@@ -1,0 +1,31 @@
+{
+  "name": "vostfreescrapper",
+  "version": "1.0.0",
+  "description": "a Scrapper for Vostfree.tv website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BastienBoymond/VostfreeScrapper.git"
+  },
+  "keywords": [
+    "Vostfree",
+    "manga",
+    "anime",
+    "scrapping"
+  ],
+  "author": "BastienBoymond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BastienBoymond/VostfreeScrapper/issues"
+  },
+  "homepage": "https://github.com/BastienBoymond/VostfreeScrapper#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  },
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}
