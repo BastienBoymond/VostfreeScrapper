@@ -1,6 +1,6 @@
 {
   "name": "vostfreescrapper",
-  "version": "1.1",
+  "version": "1.1.1",
   "description": "a Scrapper for Vostfree.tv website",
   "main": "index.js",
   "scripts": {
