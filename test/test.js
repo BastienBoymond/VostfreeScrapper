@@ -7,7 +7,7 @@ const vost = new vostFreeScreen();
 async function main() {
     await vost.initPage();
 
-    await vost.anime.getAnimeById(1075).then(res => {
+    await vost.anime.getAnimeById(517).then(res => {
         console.log(res);
     });
 
