@@ -1,12 +1,14 @@
 const puppeteer = require('puppeteer');
 
 const Anime = require('./lib/Anime')
+const Search = require('./lib/DoSearch')
 
 class VostFreeScreen {
 
     constructor() {
         this.baseUrl = 'https://vostfree.tv/';
         this.anime = new Anime(this);
+        this.search = new Search(this);
         this.browser;
         this.page;
     }
