@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 
 const Anime = require('./lib/Anime')
+const Page = require('./lib/Page')
 const Search = require('./lib/DoSearch')
 
 class VostFreeScreen {
@@ -9,6 +10,7 @@ class VostFreeScreen {
         this.baseUrl = 'https://vostfree.tv/';
         this.anime = new Anime(this);
         this.search = new Search(this);
+        this.pageSearch = new Page(this);
         this.browser;
         this.page;
     }
